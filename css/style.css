@@ -1,0 +1,63 @@
+body {
+  background-color:black; 
+  
+}
+
+#quote{
+  margin: 8% auto auto auto; 
+  border-color:white;
+  background-color:white;
+  width:50%;
+  border-radius:5px;
+  padding:30px;
+  font-family: 'Arimo', sans-serif;
+    
+}
+
+blockquote {
+	font-size:18px;
+	border:none;
+	padding:0;
+  text-align:left;
+}
+blockquote.large {
+	font-size:20px;	
+	line-height:1.1em;
+}
+blockquote.large:before{
+  font-size:64px;
+	font-family: FontAwesome;
+  content: "\f10d";
+	margin-right:20px;
+}
+#author { display:block; 
+  font-size:13px; 
+  text-align:right;
+  margin-top:-10px;
+  margin-bottom:20px;
+}
+#author:before{ content:"\2014 \0020"; }
+
+#newQuote {
+  float:right;
+  border:0;
+  background-color:black;
+}
+
+#button-area a {
+  border:none;
+  background-color:black;
+}
+footer {
+  margin: auto;
+  text-align:center;
+  padding-top:10px;
+   
+}
+footer a{
+  color:white;
+}
+
+#quote-text{
+  font-size:20px;
+}
